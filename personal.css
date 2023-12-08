@@ -1,0 +1,58 @@
+#main{
+  margin-left: 12%;
+  margin-right: 12%;
+  margin-top:5%;
+}
+body{
+  background-color: rgb(103,114,157);
+}
+h1,h2,h3,p,li{
+  font-family:'Libre Franklin',Verdana,Arial,sans-serif;
+}
+h1{
+  color:rgb(254,217,237);
+  font-size: 45px;
+}
+h2{
+  color:rgb(231,188,222);
+}
+h3{
+  color:rgb(187,156,192);
+}
+p, li{
+  color:white;
+  font-size:18px;
+}
+ul{
+  list-style-type:"\1F338";
+  list-style-position:inside;
+}
+table.bio{
+  table-layout: fixed;
+}
+  table.bio td{
+    width:50%;
+  }
+table.portfolio{
+  text-align:center;
+  table-layout: auto;
+  width:100%;
+}
+  table.portfolio td{
+    vertical-align: top;
+    width:33%;
+  }
+a, a:link{
+  text-decoration: none;
+}
+  a.a-list{
+    color:rgb(187,156,192);
+  }
+  a:hover{
+    color:white;
+  }
+hr{
+  height:2px;
+  border:0 none;
+  background-image: linear-gradient(to right, rgba(0,0,0,0), rgba(254, 217, 237), rgba(0,0,0,0));
+}
